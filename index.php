@@ -224,6 +224,8 @@
         mistats.moddate = "2016/11/23 H10";
         mistats.keywords = "";
     </script>
+
+    <!-- Site specific omniture settings -->
     <script type='text/javascript' src='http://media.mcclatchydc.com/misites/mcd/mcclatchydc.js'></script>
     <meta name="google-site-verification" content="EedtwJCD34vv_4BAyiBZEQMjnQ_W3-NUVzBgXyT6ooY" />
     <script src="//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5" async></script>
@@ -944,7 +946,7 @@ Terms of Service
         ga('create', 'UA-3858463-13', trackerConfig);
         ga(trackerSend, 'pageview');
     </script>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         /* Front end properties configured in nursery */
         var FrontEndConfig = {
             "media.jwplayer.script.location": "http://static.mcclatchyinteractive.com/escenic/jwplayer-7.1.4/jwplayer.js",
@@ -978,7 +980,7 @@ Terms of Service
                 }
             });
         });
-    </script>
+    </script> -->
     <script type="text/javascript">
         /*Device width fix for Windows Phone 8 and IE 10*/
         if (navigator.userAgent.match(/IEMobile\/10\.0/)) {

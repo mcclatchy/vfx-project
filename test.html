@@ -1,0 +1,31 @@
+<script src="http://sandbox.video/standalone_jw/self_host/jwplayer.js"></script>
+<script>jwplayer.key="tTakaWDwaA/5t6sLfLhYBB4EfEa1ETrJDYnTPw==";</script>
+
+<div id="sa-playlist-player" ></div>
+
+<script>
+	//Setup the Player
+	jwplayer("sa-playlist-player").setup({
+	playlist: [{
+	sources: [{
+		file: "http://dr6lcqo3bxtwa.cloudfront.net/binary/2017/1/24/20/1437580321678-6bjrso/Teaser%20Trailer-1485288815578.mp4"
+		}, {
+		file: "http://dr6lcqo3bxtwa.cloudfront.net/binary/2017/1/24/20/1437582013143-p5k4ma/Teaser%20Trailer-1485288815062.mp4"
+		}, {
+		file: "http://dr6lcqo3bxtwa.cloudfront.net/binary/2017/1/24/20/art_128458254/Teaser_Trailer.m3u8"
+	}]
+	}],
+	visualplaylist:false,
+	displaytitle: false,
+	debug: true,
+	image:"http://media.star-telegram.com/static/media/titletowntxmain.jpg",
+	// Shadow and Sharing Designs set here.
+	skin: {
+		name: 'mi-video'
+	},
+	sharing: {
+		sites: ['facebook', 'twitter', 'reddit', 'email'],
+		code: 'code here'
+	}
+	});
+</script>

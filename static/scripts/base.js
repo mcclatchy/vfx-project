@@ -6,15 +6,6 @@ $(document).ready(function() {
         setShareURL();
     });
 
-    $(window).scroll(function() {
-		var distanceFromTop = $(this).scrollTop();
-		if (distanceFromTop >= $('#hc-hero').offset().top + $('#hc-nav-header').height()) {
-			$('#hc-nav-header').slideDown();
-		} else {
-			$('#hc-nav-header').slideUp();
-		}
-    });
-
     $('#hc-hamburger').click(function () {
         $('#hc-nav-mob').show();
         $('.hc-shadow').show();
