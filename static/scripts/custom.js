@@ -12,7 +12,7 @@ $(document).ready(function() {
     require(['jwplayer'], function(jwplayer) {
         jwplayer.key = "tTakaWDwaA/5t6sLfLhYBB4EfEa1ETrJDYnTPw==";
         //Setup the Player
-        jwplayer("sa-playlist-player").setup({
+        jwplayer("hc-hero-video").setup({
             playlist: [
                 {
                     sources: [
@@ -29,12 +29,16 @@ $(document).ready(function() {
                     ]
                 }
             ],
-            width: "80%",
+            width: "100%",
             aspectratio: "16:9",
             visualplaylist: false,
             displaytitle: false,
             debug: true,
-            image: "http://media.star-telegram.com/static/media/titletowntxmain.jpg",
+            image: "http://www.mcclatchydc.com/news/n3jo3s/picture128695919/binary/vfx-hero.png",
+            advertising: {
+              client: "vast",
+              tag: "http://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250&correlator=%5Btimestamp%5D&cust_params=sect%3Dnational%26id%3D132251924%26eid%3D132391239%26pl%3D&env=vp&gdfp_req=1&hl=en&impl=s&iu=%2F7675%2FSAC.site_sacbee%2FNews%2FState&output=vast&sz=400x300&unviewed_position_start=1&url=%5Breferrer_url%5D&vpos=preroll"
+          },
             // Shadow and Sharing Designs set here.
             skin: {
                 name: 'mi-video'
@@ -46,6 +50,16 @@ $(document).ready(function() {
                 code: 'code here'
             }
         });
+    });
+
+    $('.hc-video-play').click(function () {
+        $('#hc-video-overlay, #hc-hero-img').fadeOut();
+        jwplayer('hc-hero-video').play('true');
+    });
+
+    $('#hc-hero-img').load(function() {
+        console.log("I loaded");
+        $('#hc-video-overlay').show();
     });
 
 });

@@ -43,9 +43,26 @@
         </script>
 
         <!-- hero jwplayer -->
-        <div id="sa-playlist-player"></div>
+        <div id="hc-hero-wrapper">
+            <div id="hc-video-overlay">
 
-        <header id="hc-header">
+                <h1 class="hc-video-head">Hollywood's<br /> Greatest Trick</h1>
+
+                <p>The top 10 highest grossing films of 2016 earned over $9 billion, and all contained that one ingredient essential to monumental global box office success: Computer Generated Imagery. To convince us these visual effects artists share in this success and that golden statuettes are not the magicians’ only reward — That’s Hollywood’s greatest trick of all.</p>
+
+                <svg class="hc-video-play" viewBox="0 0 200 200" alt="Play video">
+                    <circle cx="100" cy="100" r="90" fill="none" stroke-width="15" stroke="#fff"></circle>
+                    <polygon points="70, 55 70, 145 145, 100" fill="#fff"></polygon>
+                </svg>
+
+                <p class="hc-video-time">20:00</p>
+
+            </div>
+            <img id="hc-hero-img" src="http://www.mcclatchydc.com/news/n3jo3s/picture128695919/binary/vfx-hero.png" />
+            <div id="hc-hero-video"></div>
+        </div>
+
+        <!-- <header id="hc-header">
 
             <h1 class="hc-head">Headline lives here</h1>
             <h2 class="hc-deck">This is the story of a deckhead that will grow up to live on this story page</h2>
@@ -55,7 +72,7 @@
 
             <button class="hc-sources-header"></button>
 
-        </header>
+        </header> -->
         <!-- /end content header -->
         <!-- ██████████████████████████████████████████████ /END MM_LINK -->
 
