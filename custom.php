@@ -1,6 +1,7 @@
 <!-- custom head -->
 
     <link rel="stylesheet" type="text/css" href="static/css/custom.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 
 <!-- /end custom head -->
 
@@ -11,7 +12,7 @@
 
         <nav id="hc-nav">
             <div id="hc-nav-margin">
-                <div id="hc-nav-logo"><a href="">McClatchy</a></div>
+                <div id="hc-nav-logo"><a href=""></a></div>
                 <div id="hc-nav-head"><span>Hollywood's Greatest Trick</span></div>
                 <div id="hc-nav-social">
                     <!-- share icons -->
@@ -44,24 +45,23 @@
         </script>
 
         <!-- hero jwplayer -->
+        <div id="hc-hero-placeholder"></div>
         <div id="hc-hero-wrapper">
             <div id="hc-video-overlay">
 
                 <h1 id="hc-video-head">Hollywood's<br /> Greatest Trick</h1>
 
-                <p>The top 10 highest grossing films of 2016 earned over $9 billion, and all contained that one ingredient essential to monumental global box office success: Computer Generated Imagery. To convince us these visual effects artists share in this success and that golden statuettes are not the magicians’ only reward — That’s Hollywood’s greatest trick of all.</p>
+                <p class="hc-video-intro">The top 10 highest grossing films of 2016 earned over $9 billion, and all contained that one ingredient essential to monumental global box office success: Computer Generated Imagery. To convince us these visual effects artists share in this success and that golden statuettes are not the magicians’ only reward — That’s Hollywood’s greatest trick of all.</p>
 
-                <svg class="hc-video-play" viewBox="0 0 200 200" alt="Play video">
-                    <circle cx="100" cy="100" r="90" fill="none" stroke-width="15" stroke="#fff"></circle>
-                    <polygon points="70, 55 70, 145 145, 100" fill="#fff"></polygon>
-                </svg>
-
-                <p class="hc-video-time">20:00</p>
+                <div class="play-wrapper">
+                    <i id="play-btn-desk" class="fa fa-play-circle fa-3x" aria-hidden="true"></i>
+                    <i id="play-btn-mob" class="fa fa-play-circle fa-2x" aria-hidden="true"></i>
+                    <p class="hc-video-time">20:00</p>
+                </div>
 
             </div>
-            <img id="hc-hero-img" src="http://www.mcclatchydc.com/news/n3jo3s/picture128695919/binary/vfx-hero.png" />
-            <div id="hc-hero-video"></div>
         </div>
+        <div id="hc-hero-video"></div>
 
         <!-- <header id="hc-header">
 
@@ -178,18 +178,18 @@
         <footer id="hc-footer">
 
             <!-- breakout section -->
-            <section class="hc-breakout-section hc-border-top hc-border-bottom">
-                <h3 class="hc-section-head hc-accent-color">About this series</h3>
+            <!-- <section class="hc-breakout-section hc-border-top hc-border-bottom">
+                <h3 class="hc-section-head hc-accent-color">About this project</h3>
 
                 <p>Lorem elit nostrud, venison tenderloin eu sed prosciutto incididunt chicken shankle pork cow andouille. Pig pastrami corned beef, ipsum fatback qui short loin tail culpa veniam est picanha meatloaf ham salami. Strip steak turkey pig, jerky swine excepteur exercitation capicola ground round venison esse kielbasa andouille. Aliqua biltong in, sausage spare ribs filet mignon capicola pork.</p>
 
                 <p>Short loin excepteur venison t-bone salami. Burgdoggen minim enim eiusmod mollit. Adipisicing ex ham cow beef ribs tail porchetta et turkey shank. Picanha rump laborum cupim minim sed beef turkey prosciutto dolor tongue commodo. Boudin sed minim ut, rump pork loin bacon ball tip et tail nostrud. Pig doner chuck culpa incididunt. Boudin duis aliquip, non irure dolore mollit kevin leberkas rump culpa ribeye pancetta fatback labore.</p>
-            </section>
+            </section> -->
             <!-- /end breakout section -->
 
             <!-- suggested stories -->
-            <section id="hc-suggested">
-                <h1 id="hc-suggested-heading" class="hc-label hc-accent-background">Suggested for you</h1><br /><br />
+            <section id="hc-suggested" class="hc-border-top">
+                <h1 id="hc-suggested-heading" class="hc-label">Suggested for you</h1><br /><br />
                 <!-- refer wrapper -->
                 <div class="hc-refer-wrapper">
                     <!-- refer -->
