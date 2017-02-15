@@ -153,7 +153,7 @@ p {
     margin-right: auto;
     font-family: $serif;
     font-size: 2rem;
-    margin-bottom: 2.4rem;
+    margin-bottom: 1.8rem !important;
     line-height: 3.6rem;
     @media (max-width: 768px) {
         font-size: 2rem;
@@ -173,8 +173,8 @@ p {
 }
 
 .hc-intro {
-    font-size: 2.6rem !important;
-    line-height: 4.8rem !important;
+    font-size: 2.4rem !important;
+    line-height: 3.6rem !important;
     @media (max-width: 480px) {
         font-size: 2.4rem !important;
         line-height: 3.6rem !important;
@@ -187,20 +187,20 @@ p {
     margin-left: auto;
     margin-right: auto;
     font-family: $serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 2.4rem;
-    line-height: 3.6rem;
-    @media (max-width: 768px) {
-        font-size: 2rem;
-        line-height: 3.6rem;
-    }
+    line-height: 3rem;
+    // @media (max-width: 768px) {
+    //     font-size: 2rem;
+    //     line-height: 3.6rem;
+    // }
 }
 
 .hc-dropcap {
     float: left;
     font-size: 17rem;
     line-height: 18rem;
-    margin: 0 0.5rem -8rem 0;
+    margin: 0 0.5rem -7rem 0;
     padding-top: 0;
     font-family: $slab;
     @media (max-width: 480px) {
@@ -425,10 +425,10 @@ IX. Breakout section
     p {
         width: 100%;
         max-width: 950px;
-        font-size: 1.6rem !important;
-        line-height: 2.4rem !important;
+        font-size: 1.4rem !important;
+        line-height: 2.2rem !important;
         font-family: $sans;
-        margin-bottom: 1.2rem;
+        margin-bottom: 1rem;
     }
 }
 
@@ -596,21 +596,21 @@ XIV. Nav
     height: 40px;
 }
 
-#hc-nav-head {
-    display: inline-block;
-    width: auto;
-    float: left;
-    padding-top: 10px;
-    color: white;
-    font-family: $cond;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1.8rem;
-
-    @media (max-width: 850px) {
-        font-size: 1.6rem;
-    }
-}
+// #hc-nav-head {
+//     display: inline-block;
+//     width: auto;
+//     float: left;
+//     padding-top: 10px;
+//     color: white;
+//     font-family: $cond;
+//     text-transform: uppercase;
+//     font-weight: bold;
+//     font-size: 1.8rem;
+//
+//     @media (max-width: 850px) {
+//         font-size: 1.6rem;
+//     }
+// }
 
 #hc-nav-desk {
     float: right;

@@ -1,4 +1,4 @@
-.reset, .hc-head, .hc-deck, .hc-byline, .hc-date, .hc-section-head, .hc-subhead, .hc-quote, .hc-attribution, .hc-note, .hc-refer-head, .hc-refer-deck {
+.reset, .hc-head, .hc-deck, .hc-byline, .hc-date, .hc-section-head, .hc-subhead, .hc-quote, .hc-attribution, .hc-note, .hc-refer-head, .hc-refer-deck, .hc-graphic-head {
   margin: 0;
   padding: 0;
   border: 0;
@@ -153,7 +153,7 @@ p, [id*="content-body-"] p {
   margin-right: auto;
   font-family: "Lyon", Georgia, serif;
   font-size: 2rem;
-  margin-bottom: 2.4rem;
+  margin-bottom: 1.8rem !important;
   line-height: 3.6rem; }
   @media (max-width: 768px) {
     p, [id*="content-body-"] p {
@@ -164,8 +164,8 @@ p, [id*="content-body-"] p {
   margin: auto; }
 
 .hc-intro {
-  font-size: 2.6rem !important;
-  line-height: 4.8rem !important; }
+  font-size: 2.4rem !important;
+  line-height: 3.6rem !important; }
   @media (max-width: 480px) {
     .hc-intro {
       font-size: 2.4rem !important;
@@ -177,19 +177,15 @@ p, [id*="content-body-"] p {
   margin-left: auto;
   margin-right: auto;
   font-family: "Lyon", Georgia, serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-bottom: 2.4rem;
-  line-height: 3.6rem; }
-  @media (max-width: 768px) {
-    p, [id*="content-body-"] p {
-      font-size: 2rem;
-      line-height: 3.6rem; } }
+  line-height: 3rem; }
 
 .hc-dropcap {
   float: left;
   font-size: 17rem;
   line-height: 18rem;
-  margin: 0 0.5rem -8rem 0;
+  margin: 0 0.5rem -7rem 0;
   padding-top: 0;
   font-family: "McClatchy Slab", Georgia, Times, "Times New Roman", serif; }
   @media (max-width: 480px) {
@@ -376,10 +372,10 @@ IX. Breakout section
   .hc-breakout-section p {
     width: 100%;
     max-width: 950px;
-    font-size: 1.6rem !important;
-    line-height: 2.4rem !important;
+    font-size: 1.4rem !important;
+    line-height: 2.2rem !important;
     font-family: "McClatchy Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
-    margin-bottom: 1.2rem; }
+    margin-bottom: 1rem; }
 
 /*
 -------------------------------------------
@@ -508,20 +504,6 @@ XIV. Nav
   width: 90%;
   margin: 0 auto;
   height: 40px; }
-
-#hc-nav-head {
-  display: inline-block;
-  width: auto;
-  float: left;
-  padding-top: 10px;
-  color: white;
-  font-family: "McClatchy Sans Cond", "Roboto Condensed Medium", "HelveticaNeue-CondensedBold", sans-serif;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 1.8rem; }
-  @media (max-width: 850px) {
-    #hc-nav-head {
-      font-size: 1.6rem; } }
 
 #hc-nav-desk {
   float: right;
@@ -698,33 +680,43 @@ XV. Loader
   height: 4rem;
   position: fixed;
   top: 0;
-  z-index: 999999999999; }
+  z-index: 999999999999;
+  -webkit-box-shadow: 0px 0.5px 5px 0px rgba(0, 0, 0, 0.67);
+  -moz-box-shadow: 0px 0.5px 5px 0px rgba(0, 0, 0, 0.67);
+  box-shadow: 0px 0.5px 5px 0px rgba(0, 0, 0, 0.8); }
 
 #hc-nav-margin {
   width: 90%;
   margin: 0 auto; }
 
-#hc-nav-logo {
+#hc-nav-logo, #hc-nav-head {
   float: left;
   color: white;
   font-family: "McClatchy Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-weight: bold;
   font-size: 1.8rem;
-  padding-top: 0.9rem; }
+  padding-top: 0.9rem;
+  width: 20%; }
+  #hc-nav-logo a, #hc-nav-head a {
+    color: white; }
+
+#hc-nav-head {
+  width: 60%;
+  text-align: center; }
+  #hc-nav-head span {
+    display: none; }
 
 #hc-nav-social {
-  float: right;
   margin-right: -10px;
-  padding-top: 0.3rem; }
+  padding-top: 0.3rem;
+  width: 20%;
+  float: left; }
+
+.share-icons {
+  float: right; }
 
 .share-icons li .glyphicon {
   background: none; }
-
-.hc-graphic {
-  max-width: 800px;
-  margin-right: auto;
-  margin-left: auto;
-  display: block; }
 
 header {
   margin-top: 4rem; }
@@ -736,9 +728,11 @@ header {
   height: 100%;
   margin: 0 auto;
   margin-bottom: 4rem; }
+  @media (max-width: 750px) {
+    #hc-hero-wrapper {
+      width: 100%; } }
 
 #hc-video-overlay {
-  display: none;
   width: 100%;
   position: absolute;
   z-index: 1001;
@@ -782,7 +776,7 @@ header {
 .hc-video-play:hover {
   opacity: 1; }
 
-.hc-video-head {
+#hc-video-head {
   text-align: center;
   color: white;
   font-family: "McClatchy Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -797,5 +791,14 @@ header {
   color: white;
   text-align: center;
   font-family: "McClatchy Sans", Arial, "Helvetica Neue", Helvetica, sans-serif !important; }
+
+.hc-graphic-head {
+  font-size: 1.8rem;
+  font-family: "McClatchy Sans", Arial, "Helvetica Neue", Helvetica, sans-serif; }
+
+.hc-graphic {
+  max-width: 650px;
+  margin: 3.6rem auto;
+  display: block; }
 
 /*# sourceMappingURL=custom.css.map */

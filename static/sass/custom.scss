@@ -28,6 +28,9 @@
     position: fixed;
     top: 0;
     z-index: 999999999999;
+    -webkit-box-shadow: 0px 0.5px 5px 0px rgba(0,0,0,0.67);
+    -moz-box-shadow: 0px 0.5px 5px 0px rgba(0,0,0,0.67);
+    box-shadow: 0px 0.5px 5px 0px rgba(0,0,0,0.8);
 }
 
 #hc-nav-margin {
@@ -42,25 +45,39 @@
     font-weight: bold;
     font-size: 1.8rem;
     padding-top: 0.9rem;
+    width: 20%;
+
+    a {
+        color: white;
+    }
+}
+
+// Hollywood's greatest trick page title
+#hc-nav-head {
+    @extend #hc-nav-logo;
+    width: 60%;
+    text-align: center;
+
+    span {
+        display: none;
+    }
 }
 
 // share icons
 #hc-nav-social {
-    float: right;
     margin-right: -10px;
     padding-top: 0.3rem;
+    width: 20%;
+    float: left;
+}
+
+.share-icons {
+    float: right;
 }
 
 // removes gray background on share icons
 .share-icons li .glyphicon {
     background: none;
-}
-
-.hc-graphic {
-    max-width: 800px;
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
 }
 
 header {
@@ -74,10 +91,13 @@ header {
     height: 100%;
     margin: 0 auto;
     margin-bottom: 4rem;
+
+    @media (max-width: 750px) {
+        width: 100%;
+    }
 }
 
 #hc-video-overlay {
-    display: none;
     width: 100%;
     position: absolute;
     z-index: 1001;
@@ -128,7 +148,7 @@ header {
     opacity: 1;
 }
 
-.hc-video-head {
+#hc-video-head {
     text-align: center;
     color: white;
     font-family: $sans;
@@ -144,4 +164,16 @@ header {
     color: white;
     text-align: center;
     font-family: $sans !important;
+}
+
+.hc-graphic-head {
+    @extend .reset;
+    font-size: 1.8rem;
+    font-family: $sans;
+}
+
+.hc-graphic {
+    max-width: 650px;
+    margin: 3.6rem auto;
+    display: block;
 }

@@ -52,14 +52,36 @@ $(document).ready(function() {
         });
     });
 
+    // watch for play button click, then make hero img fade out and hero video play automatically
     $('.hc-video-play').click(function () {
         $('#hc-video-overlay, #hc-hero-img').fadeOut();
         jwplayer('hc-hero-video').play('true');
+        $('#hc-nav-head span').fadeIn();
     });
 
-    $('#hc-hero-img').load(function() {
-        console.log("I loaded");
-        $('#hc-video-overlay').show();
+    var topOfVideoHead = $("#hc-video-head").offset().top + 400;
+
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > topOfVideoHead) { //scrolled past the other div?
+            console.log("Passed");
+            $("#hc-nav-head span").fadeIn();
+        } else {
+            $("#hc-nav-head span").fadeOut();
+        }
     });
 
+    // $('#hc-hero-img').load(function() {
+    //     console.log("I loaded");
+    //     $('#hc-video-overlay').show();
+    // });
+
+    var mastheadAlt = $('#masthead-logo img').attr('alt');
+    var newsroomName = mastheadAlt.split(" | ");
+
+    // change masthead newsroom name depending on domain
+    $('#hc-nav-logo a').text(newsroomName[0]);
+    $('#hc-nav-logo a').attr('href', mast_options.publicationUrl)
+
+    // remove ads
+    $('#leaderboard-ad').remove();
 });
