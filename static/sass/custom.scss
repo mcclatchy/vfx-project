@@ -1,5 +1,7 @@
 @import "base.scss";
 
+$primary: rgb(33, 111, 63);
+
 //  _____                 _                                 _             _
 // / ____|               | |                               | |           | |
 // | |       _   _   ___  | |_    ___    _ __ ___      ___  | |_   _   _  | |   ___   ___
@@ -8,6 +10,14 @@
 // \_____|  \__,_| |___/  \__|  \___/  |_| |_| |_|   |___/  \__|  \__, | |_|  \___| |___/
 //                                                                 __/ |
 //                                                                |___/
+
+a {
+    color: $primary;
+
+    &:hover {
+        color: lighten($primary, 12%);
+    }
+}
 
 #masthead-container, #leaderboard-ad, #footer {
     display: none;
@@ -71,6 +81,10 @@
 
     span {
         display: none;
+
+        @media (max-width: 768px) {
+            display: none !important;
+        }
     }
 
     @media (max-width: 768px) {
@@ -151,7 +165,7 @@ header {
     width: 100%;
     position: absolute;
     z-index: 1001;
-    top: 55%;
+    top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -159,18 +173,33 @@ header {
     right: 0;
 
     @media (max-width: 700px) {
-        top: 60%;
+        top: 65%;
     }
 
     p.hc-video-intro {
         color: white;
         font-family: $sans;
-        font-size: 1.5rem;
-        line-height: 2.4rem;
-        max-width: 550px;
+        font-size: 1.7rem;
+        line-height: 2.6rem;
+        max-width: 580px;
         width: 90%;
         text-align: center;
         text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+
+        @media (max-width: 768px) {
+            font-size: 1.5rem;
+            line-height: 2.4rem;
+        }
+    }
+}
+
+#hc-hero-video-wrapper {
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+
+    @media (max-width: 768px) {
+        width: 100%;
     }
 }
 
@@ -230,16 +259,16 @@ header {
     }
 }
 
-#hc-video-head {
+#hc-video-head-desk {
     text-align: center;
     color: white;
     font-family: $sans;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 5rem;
-    line-height: 5rem;
+    font-size: 7rem;
+    line-height: 7rem;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
-    margin-bottom: 2.4rem;
+    margin-bottom: 1.2rem;
 
     @media (max-width: 768px) {
         font-size: 3rem;
@@ -247,13 +276,46 @@ header {
     }
 }
 
+#hc-video-head-mob {
+    display: none;
+    @extend #hc-video-head-desk;
+    color: #222;
+    text-shadow: none;
+}
+
+.hc-byline {
+    font-size: 1.4rem;
+    color: white;
+    font-family: $sans;
+    color: #222;
+    margin-bottom: 0rem;
+
+    @media (max-width: 768px) {
+        font-size: 1.2rem;
+    }
+
+    a {
+        color: white;
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.hc-date {
+    margin-bottom: 3.6rem;
+
+    @media (max-width: 768px) {
+        margin-bottom: 3rem;
+    }
+}
+
 .hc-graphic-head {
     @extend .reset;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-family: $sans;
 }
 
 .hc-graphic {
+    width: 90%;
     max-width: 650px;
     margin: 3.6rem auto;
     display: block;
@@ -281,4 +343,69 @@ header {
     @media (max-width: 768px) {
         display: inline;
     }
+}
+
+.hc-show-mob {
+    display: none;
+
+    @media (max-width: 768px) {
+        display: block !important;
+    }
+}
+
+blockquote {
+    width: 90%;
+}
+
+.hc-intro {
+    font-family: $sans !important;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2rem !important;
+    line-height: 3rem !important;
+
+    @media (max-width: 768px) {
+        font-size: 1.8rem !important;
+        line-height: 2.4rem !important;
+    }
+}
+
+.hc-quote {
+    font-family: $sans;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 3rem;
+    line-height: 3.6rem;
+}
+
+.hc-attribution {
+    margin-top: 1.2rem;
+    font-style: normal;
+}
+
+.hc-quotemark-desk {
+    font-size: 16rem;
+    margin-left: -10rem;
+    margin-top: -3rem;
+    color: $primary;
+}
+
+.hc-quotemark-mob {
+    font-size: 16rem;
+    margin-left: -2rem;
+    margin-top: 1rem;
+    font-style: italic;
+    color: $primary;
+}
+
+.hc-story-video-wrapper {
+    margin: 3.6rem auto;
+    width: 90%;
+    max-width: 650px;
+}
+
+
+.hc-label {
+    background: $primary;
+    color: white;
 }

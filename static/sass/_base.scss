@@ -135,7 +135,6 @@ section.container {
             left: 0;
             right: 0;
             background: $lighter;
-            padding-left: 0.5rem;
         }
     }
 }
@@ -146,20 +145,20 @@ II. Content well
 -------------------------------------------
 */
 
-p {
-    max-width: 650px;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: $serif;
-    font-size: 2rem;
-    margin-bottom: 1.8rem !important;
-    line-height: 3.6rem;
-    @media (max-width: 768px) {
-        font-size: 2rem;
-        line-height: 3.6rem;
-    }
-}
+// p {
+//     max-width: 650px;
+//     width: 90%;
+//     margin-left: auto;
+//     margin-right: auto;
+//     font-family: $serif;
+//     font-size: 2rem;
+//     margin-bottom: 1.8rem !important;
+//     line-height: 3.6rem;
+//     @media (max-width: 768px) {
+//         font-size: 2rem;
+//         line-height: 3.6rem;
+//     }
+// }
 
 [id*="content-body-"] {
 
@@ -172,15 +171,6 @@ p {
     }
 }
 
-.hc-intro {
-    font-size: 2.4rem !important;
-    line-height: 3.6rem !important;
-    @media (max-width: 480px) {
-        font-size: 2.4rem !important;
-        line-height: 3.6rem !important;
-    }
-}
-
 p {
     max-width: 650px;
     width: 90%;
@@ -188,7 +178,7 @@ p {
     margin-right: auto;
     font-family: $serif;
     font-size: 1.8rem;
-    margin-bottom: 2.4rem;
+    margin-bottom: 1.8rem;
     line-height: 3rem;
     // @media (max-width: 768px) {
     //     font-size: 2rem;
@@ -245,9 +235,10 @@ IV. Section head, subhead
     @extend .reset;
     font-weight: bold;
     font-family: $sans;
-    margin: 0 auto 0.6rem;
+    margin: 0 auto 0rem;
+    // new
     font-size: 2rem;
-    line-height: 2.6rem;
+    line-height: 3.6rem;
     max-width: 650px;
     width: 90%;
 }
@@ -256,7 +247,7 @@ IV. Section head, subhead
     font-size: 1.6rem;
     line-height: 1.2rem;
     text-transform: uppercase;
-    color: #fff;
+    color: black;
     border-radius: 0.5rem;
     padding: 0.8rem 0.8rem 0.6rem;
     min-width: 8rem;
@@ -278,10 +269,6 @@ figure {
     display: block;
     margin: 1.2rem auto 3.6rem;
     height: auto;
-
-    img {
-        margin-bottom: -2rem;
-    }
 }
 
 figcaption {
@@ -497,6 +484,7 @@ XII. Credits
     margin: 0 auto 4.8rem;
     font-size: 1.2rem;
     padding-top: 1.2rem;
+    text-align: left;
     @media (max-width: 480px) {
         margin: 1.2 auto 4.8rem;
     }
@@ -566,6 +554,7 @@ XIII. Suggested stories
 }
 
 .hc-description-wrapper {
+    color: black;
     @media (max-width: 480px) {
         width: 50%;
         float: left;
