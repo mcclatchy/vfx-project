@@ -6,7 +6,7 @@
 //   \_____|  \__,_| |___/  \__|  \___/  |_| |_| |_|   |___/  \___| |_|    |_| | .__/   \__| |___/
 //                                                                             | |
 //                                                                             |_|
-// 
+//
 // var customJS = "<link rel="
 //
 // $('footer').append()
@@ -17,7 +17,8 @@ $(document).ready(function() {
 
     require(['jwplayer'], function(jwplayer) {
         jwplayer.key='tTakaWDwaA/5t6sLfLhYBB4EfEa1ETrJDYnTPw==';
-        //Setup the Player
+
+        // Hollywoods greatest trick hero video
         jwplayer("hc-hero-video").setup({
             playlist: [
                 {
@@ -43,23 +44,22 @@ $(document).ready(function() {
             image: "http://www.mcclatchydc.com/news/n3jo3s/picture128695919/binary/vfx-hero.png",
             advertising: {
                 client: "vast",
-                tag: "http://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250%26correlator=%5Btimestamp%5D%26cust_params=sect%3Dnational%26id%3D132901279%26eid%3D132901279%26pl%3D%26env=vp%26gdfp_req=1%26hl=en%26impl=s%26iu=%2F7675%2FBND.site_bnd%2FNews%2FNational%26output=vast%26sz=400x300%26unviewed_position_start=1%26url=%5Breferrer_url%5D%26vpos=preroll"
+                skipoffset: 5,
+                tag: "http://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250&correlator=%5Btimestamp%5D&cust_params=sect%3Dreligion%26id%3D133954254%26eid%3D133954254%26pl%3D&env=vp&gdfp_req=1&hl=en&impl=s&iu=%2F7675%2FFRS.site_fresnobee%2FLifestyle%2FFaithValues%2FReligion&output=vast&sz=400x300&unviewed_position_start=1&url=%5Breferrer_url%5D&vpos=preroll"
+                // tag: "http://pubads.g.doubleclick.net/gampad/ads?ciu_szs=300x250&correlator=%5Btimestamp%5D&cust_params=sect%3Dnational%26id%3D131980949%26eid%3D41194104%26pl%3D&env=vp&gdfp_req=1&hl=en&impl=s&iu=%2F7675%2FMDC.site_mcclatchydc%2FNews%2FNational&output=vast&sz=400x300&unviewed_position_start=1&url=%5Breferrer_url%5D&vpos=preroll"
             },
             // Shadow and Sharing Designs set here.
             skin: {
                 name: 'mi-video'
             },
             sharing: {
-			    link: projectURL + '?play=MEDIAID',
+			    link: 'http://fresnobee.com/hollywoods-greatest-trick/',
 			    sites: ['facebook', 'twitter', 'reddit', 'email'],
 			    code: '<style>.mcclatchy-embed{position:relative;padding:0px 0 62.5%;height:0;overflow:hidden;max-width:100%}.mcclatchy-embed iframe{position:absolute;top:0;left:0;width:100%;height:100%}</style><div class="mcclatchy-embed"><iframe src="'+ projectURL +'/embed.php?play=MEDIAID" width="640" height="400" frameborder="0" allowfullscreen="true"></iframe></div>'
             }
         });
-    });
 
-    require(['jwplayer'], function(jwplayer) {
-        jwplayer.key='tTakaWDwaA/5t6sLfLhYBB4EfEa1ETrJDYnTPw==';
-        //Setup the Player
+        // 'How VFX works' animation video
         jwplayer("hc-story-video1").setup({
             playlist: [
                 {
@@ -90,11 +90,6 @@ $(document).ready(function() {
             // Shadow and Sharing Designs set here.
             skin: {
                 name: 'mi-video'
-            },
-            sharing: {
-			    link: projectURL + '?play=MEDIAID',
-			    sites: ['facebook', 'twitter', 'reddit', 'email'],
-			    code: '<style>.mcclatchy-embed{position:relative;padding:0px 0 62.5%;height:0;overflow:hidden;max-width:100%}.mcclatchy-embed iframe{position:absolute;top:0;left:0;width:100%;height:100%}</style><div class="mcclatchy-embed"><iframe src="'+ projectURL +'/embed.php?play=MEDIAID" width="640" height="400" frameborder="0" allowfullscreen="true"></iframe></div>'
             }
         });
     });
@@ -130,4 +125,6 @@ $(document).ready(function() {
 
     // remove ads
     $('#leaderboard-ad').remove();
+
+    $('#hc-footer').insertAfter($('footer'));
 });

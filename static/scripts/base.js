@@ -5,6 +5,7 @@ $(document).ready(function() {
 
     function setShareURL() {
         var projectURL = window.location.href;
+        projectURL = 'http://fresnobee.com/hollywoods-greatest-trick';
 
         // Facebook
         var facebookURL = "http://www.facebook.com/sharer/sharer.php?u=" + projectURL;
@@ -19,7 +20,7 @@ $(document).ready(function() {
         $("#hc-twitter-share").attr("href", twitterURL);
 
         // Email
-        var emailPartial = "mailto:?subject=Voters Make the Call: 69 voicemails from 25 states%26body=";
+        var emailPartial = "mailto:?subject=Voters Make the Call: 69 voicemails from 25 states %26body=";
         var emailURL = emailPartial + projectURL;
         $("#hc-email-share").attr("href", emailURL);
     }

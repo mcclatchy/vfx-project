@@ -22,7 +22,7 @@
 
 .hc-border-bottom {
     border-bottom: 0.5px solid #e9ebee;
-    padding-bottom: 1.6rem;
+    // padding-bottom: 1.6rem;
 }
 
 .hc-header-style {
@@ -31,4 +31,9 @@
     text-align: center;
     margin: 0 auto;
     display: block;
+}
+
+.hc-story-video-head {
+    @extend .hc-graphic-head;
+    margin-bottom: 1.5rem;
 }

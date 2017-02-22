@@ -56,7 +56,7 @@
 
                 <div class="hc-date">February 22, 2016 ?:?? AM</div>
 
-                <p class="hc-video-intro">The top 10 highest grossing films of 2016 earned over $9 billion, and all contained that one ingredient essential to monumental global box office success: Computer Generated Imagery. To convince us these visual effects artists share in this success and that golden statuettes are not the magicians’ only reward — That’s Hollywood’s greatest trick of all.</p>
+                <p class="hc-video-intro">Visual effects artists are responsible for some of the most iconic moments in movie history.  The top 10 highest grossing films of 2016 all contained computer generated imagery.  But while Hollywood's profits grow, visual effects artists struggle for fair pay, representation and recognition beyond the most prestigious award in film — an Oscar.</p>
 
                 <div class="play-wrapper">
                     <i id="play-btn-desk" class="fa fa-play-circle fa-3x" aria-hidden="true"></i>
@@ -72,164 +72,155 @@
 
         <!-- content well -->
 
-        <p class="hc-intro">It was one of the most controversial cinematic moments of 2016.</p>
+        <p class="hc-intro">It was one of the most controversial cinematic moments of 2016. </p>
 
-        <p class="hc-intro">Lorem ipsum dolor sit amet ut. Fusce in pellentesque eu purus natoque cras id nec. Diam sociis ultricies. Mi dolor vehicula. Lorem eleifend felis nulla.</p>
+        <p class="hc-intro">In the final scene of “Rogue One: A Star Wars Story,” a figure shrouded in a white cloak turns, extends her hand, faces the camera and utters one word: “Hope.” Audiences everywhere <a href="https://www.youtube.com/watch?v=m8_lXs-XuYM&amp;t=23s" >gasped</a>, screamed and cheered.</p>
 
-        <p>Lorem ipsum dolor sit amet ut. Fusce in pellentesque eu purus natoque cras id nec. Diam sociis ultricies. Mi dolor vehicula. Lorem eleifend felis nulla.</p>
+        <p>Nearly 40 years after the first “Star Wars” movie debuted, the character of Princess Leia had returned to the screen without aging a day, even as the actress who portrayed her, Carrie Fisher, went from 19 years old to 60.</p>
 
-        <p>Orci tristique volutpat sed ante nonummy. Nam nullam dolor. Quisque auctor pede. Pulvinar malesuada ipsum felis eget eu arcu ipsum arcu. Pharetra turpis sit. Sem pulvinar dolor sed sit nec. Tempus suspendisse porta commodo vel ligula viverra felis etiam. Egestas tempus maecenas eu tincidunt viverra at odio pellentesque congue ante risus. Sodales euismod nec. Dolor sapien tellus. Malesuada suscipit odio. Purus lectus est vel id dolor. Adipiscing aliquam malesuada erat lacus tempus tincidunt augue et.</p>
+        <p>The <a href="https://www.nytimes.com/2016/12/27/movies/how-rogue-one-brought-back-grand-moff-tarkin.html?_r=0" >masterpiece of movie magic</a>, combining old footage and recordings with digital effects to turn back time, raised ethical questions about profiting in perpetuity off the likeness of an actor. When Fisher died just a few weeks after the “Rogue One” premiere, Disney executives reportedly considered recreating her digitally in order to include her in future installments of the franchise, before ultimately issuing a statement saying they would not.</p>
 
-        <p>Blandit nunc ut. Viverra fermentum vestibulum elit nisl torquent. Eu torquent erat non commodo nascetur ut nec elementum. In placerat arcu. Phasellus proin dignissim maecenas.</p>
+        <p>But the very fact that an actor’s death might not mean the end of her on-screen career shows how rapidly the visual effects industry is changing.</p>
 
-        <p>Quis ultrices aliquet iaculis inceptos mi. Ut adipiscing sed. Ac sollicitudin wisi nibh condimentum ipsum quisque et ac. Lacinia cras fermentum. Ullamcorper montes eu gravida.</p>
-
-        <p>Elementum neque vestibulum. Eget euismod wisi. Vel molestie ut enim donec odio tellus officiis quis aliquet in sociis. Eros volutpat quis blandit dolor nec. Mauris lacus erat. Commodo sit quis egestas quis amet mattis potenti taciti. Enim eu etiam. Vestibulum vestibulum turpis. In ac orci repudiandae montes a sit accumsan nullam senectus sed amet. Vulputate donec enim ut scelerisque in cursus sit nulla. Arcu diam nec ut suspendisse ante. Integer dui faucibus. Condimentum elit quam.</p>
-
-        <div class="hc-story-video-wrapper">
+        <div class="hc-story-video-wrapper hc-border-top">
+            <h3 class="hc-story-video-head">Video head goes here</h3>
             <div id="hc-story-video1"></div>
         </div>
+
+        <p>While Hollywood’s profits rise and visual effects artists continually raise the bar for what’s possible on-screen, its daily workers say they remain underpaid, overworked and without representation.</p>
 
         <h4 class="hc-subhead">Personal costs</h4>
 
-        <p>Ante rhoncus integer. Vero pellentesque morbi in mauris nullam. Consectetuer lacus ut nonummy nam at quam suspendisse sit. Praesentium alias tincidunt. Odio bibendum quasi sem quis quisque eleifend cursus blandit tellus varius montes duis aliquam mi. Massa quia dui. Aliquam libero aliquam. Proin wisi magna massa nonummy sed sociis tincidunt porta habitant quam egestas. Ut et convallis. Eget euismod ac a ipsum enim. Vel bibendum feugiat integer penatibus aenean. Est sit luctus. Dictumst sit est.</p>
+        <p>In <a href="https://stephenfollows.com/how-many-people-work-on-a-hollywood-film/" >practically every modern blockbuster, t</a>he visual effects department is the largest group of workers.</p>
+
+        <p>More than 700 artists, animators and supervisors were credited with bringing young Carrie Fisher back on screen in “Rogue One.”</p>
+
+        <p>“Independence Day: Resurgence,” “The Jungle Book” and “Fantastic Beasts and Where To Find Them” each list more than 1,100 special and visual effects artists in their credits, per IMDB.com. According to some industry insiders, the credits often fail to list up to one-third of those who actually worked on the film.</p>
+
+        <figure class="hc-graphic hc-border-top hc-border-bottom">
+            <h3 class="hc-graphic-head">Top 50 highest grossing films of 2016</h3>
+            <iframe id="datawrapper-chart-FU8iF" src="//datawrapper.dwcdn.net/FU8iF/9/" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="90%" height="840"></iframe><script type="text/javascript">if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["FU8iF"]={},window.datawrapper["FU8iF"].embedDeltas={"100":975,"200":894,"300":867,"400":867,"500":840,"600":840,"700":840,"800":840,"900":840,"1000":840},window.datawrapper["FU8iF"].iframe=document.getElementById("datawrapper-chart-FU8iF"),window.datawrapper["FU8iF"].iframe.style.height=window.datawrapper["FU8iF"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["FU8iF"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("FU8iF"==b)window.datawrapper["FU8iF"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});</script>
+        </figure>
+
+        <p>Yet even with the huge demand for ever-improving visual effects, the life of a visual effects artist can be financially unstable.</p>
+
+        <p>The average hourly wage for an American visual effects artist is $30.76, according to May 2015 data from the Bureau of Labor Statistics. But job stability is rare, and most visual effects artists are nomadic, moving around, working under contract for the length of a job, and living paycheck to paycheck, several former artists say. Once one job ends, the pressure to find another job begins.</p>
+
+        <p>“When your job is up, you get kicked out and you might find a new job right away and you might not,” said Andreas Jablonka, a visual effects artist from Germany. “So a lot of us, myself included, sign up for unemployment (but) by the time you have the one week waiting period, suddenly you might have a new job. You go on and off.”</p>
+
+        <p>Payment can sometimes be delayed for weeks or months. Some people <a href="http://www.hollywoodreporter.com/thr-esq/fired-rhythm-hues-workers-sue-421895" >report not getting paid at all</a>, whether the project is a huge film with <a href="http://www.thewrap.com/pixomondo-freelancers-angry-over-late-payments-exclusive-112681/" >a massive budget</a> or an independent low-budget <a href="http://www.awn.com/news/fake-studio-not-paying-vfx-artists" >flick</a>. Independent contractors <a href="http://www.thewrap.com/visual-effects-workers-struggle-without-health-care-overtime-pay-survey-finds-103656/" >rarely receive</a> health insurance or any other benefits, so purchases beyond daily expenses can fall out of reach, <a href="http://articles.latimes.com/2012/apr/20/business/la-fi-ct-visual-effects-workers-20120420" >according to the Los Angeles Times</a>.</p>
+
+        <p>“A VFX guy buying a house, it would be suicide,” said Pierre Grage, a former visual effects artist who wrote a book on the challenges facing the visual effects industry.</p>
 
         <blockquote>
             <div class="hc-quotemark-desk">“</div>
-            <div class="hc-quote"><span class="hc-quotemark-mob hc-accent-color">“</span>Diam gravida enim leo quis mollis. Integer mauris sapien dolor enim ut egestas praesent sunt. Sed nulla parturient. Incidunt at sed. Urna quam curae wisi.</div>
-            <div class="hc-attribution">— Firstname Lastname</div>
+            <div class="hc-quote"><span class="hc-quotemark-mob hc-accent-color">“</span>You’re going to get fired, you just don’t know when. But your house payments have to go on, you still have to pay for school.</div>
+            <div class="hc-attribution">— Pierre Grage</div>
         </blockquote>
 
-        <p>Pede euismod turpis aenean non sem vel quis quis tortor ante elit. Rhoncus elit pharetra nisl adipiscing tristique. Et eget placerat at ultrices turpis pulvinar rutrum enim. A dapibus nisl. Per augue facilisis. In faucibus wisi. Felis ante ut leo mi at. Nonummy sit nulla. Orci dolor dui vel quam.</p>
+        <p>Even a salaried, stable position does not preclude obstacles. On Reddit threads and message boards, anonymous artists talk about working 20 hours a day, 80 hours a week, sometimes as many as 32 hours straight. Grage says he once rendered a single shot 1,300 times before the filmmakers settled on something they liked.</p>
 
-        <p>Ornare est mauris. Duis ultrices orci eu nunc bibendum leo non odio. Sed ipsum quam. Etiam eget nec condimentum pellentesque adipiscing. Lorem vel taciti. Vitae vivamus sed sit etiam tincidunt velit quam luctus et hendrerit ante. Diam mauris nascetur. Quam nec felis. Mattis ut aenean orci lectus nunc felis elit.</p>
+        <p>“One time I worked three months straight without a day off, and I had to fake an injury to get a day off work,” said Mariana Acuña Acosta, a veteran visual effects artist. “I worked seven days a week, 12-, 14-hour days.”</p>
 
-        <p>Diam gravida enim leo quis mollis. Integer mauris sapien dolor enim ut egestas praesent sunt. Sed nulla parturient. Incidunt at sed. Urna quam curae wisi.</p>
+        <p>Unsurprisingly, the rate of burnout among visual effects artists is sky-high, according to Grage, Acuña Acosta and <a href="http://forums.cgsociety.org/archive/index.php?t-945911.html" >other</a> <a href="http://cg-masters.com/2013/12/27/the-trouble-with-overtime/" >visual</a> <a href="http://www.cgchannel.com/2010/10/hollywood-babylon-the-truth-about-burnout-in-vfx-jobs/" >effects</a> <a href="https://www.reddit.com/r/vfx/comments/2hysr2/how_do_you_guys_deal_with_burn_out/" >artists</a>. The industry takes young, enthusiastic artists and turns them into workaholics that churn out visual effects shots. In order to keep going for as long and as hard as they do, some visual effects artists develop unhealthy habits.</p>
 
-        <p>Enim sit donec. A ipsum dolor. Dui donec nunc odio scelerisque in elit commodo cursus lectus ipsum diam. Varius fringilla pellentesque. Suspendisse quis mi amet.</p>
+        <p>“There’s many stories of people who ended up getting dependent on some sort of substance abuse because they’re working these crazy long hours,” said Daniel Lay, a former visual effects artist who has advocated for artists’ rights on his blog, “VFX Soldier.”</p>
 
-        <p>In pellentesque litora. Pede sit scelerisque in quis donec. Elit aliquet libero donec faucibus in. In orci luctus sapien donec pede. Mollis felis sed lorem.</p>
+        <p>Eric Kohler, a producer with Vitality VFX, got up one day in 2015 and walked out the door at work without his wallet or keys. He stopped answering his phone and went completely off the radar. <a href="http://variety.com/2015/film/news/missing-vfx-producer-found-safe-in-mexico-1201654526/" >For a week, he was missing, before authorities finally found him 1,000 miles from home in Mexico</a>.</p>
 
-        <p>Imperdiet quam wisi curabitur lectus vitae eros tristique tellus a scelerisque dis. Integer id orci. Aliquet pede velit. Placerat elementum mi. Vestibulum tortor molestie et.</p>
-
-        <p>Vestibulum eu id. Quam ut placerat. Phasellus dignissim nec. Mollis interdum congue velit nam nisl necessitatibus libero dapibus eu accumsan sapien. Cursus nullam ut erat.</p>
-
-        <div class="hc-story-video-wrapper">
-            <div id="hc-story-video1"></div>
-        </div>
-
-        <p>Velit quam pede. Ut bibendum nulla porta molestie sed odio sapien fringilla. Sapien diam tincidunt. In mi ipsum. In sagittis ac elit habitant blandit praesent.</p>
-
-        <p>Augue consequat metus. Rutrum mauris suscipit. Blandit nunc consequat aliquam con suspendisse. Quis volutpat nulla sed nulla nunc. Libero pellentesque justo at neque lacus massa.</p>
-
-        <p>Dis nam augue. Arcu pretium non morbi vitae cursus elit aliquam orci. In sit nibh etiam pellentesque wisi pharetra nulla fugit. Ipsum labore quam fermentum gravida neque id luctus integer. Vestibulum tempor sit amet nunc interdum. Eu nisl phasellus. Aenean non quis. Neque platea habitant. Neque suspendisse sed rutrum nulla.</p>
-
-        <p>Vel sed nam. Quam arcu sed dictum sapien aliquam. Diam vitae mollis. Nullam egestas neque. Erat eu consectetuer cursus a nunc pellentesque imperdiet sem velit.</p>
-
-        <p>Dapibus vel pede at metus auctor. Ullamcorper nibh mi eget condimentum wisi suspendisse recusandae cras. Potenti et mus. Magna voluptatem quam. Vitae sed massa duis nonummy auctor. Nullam lobortis integer tellus nunc tempor sem aliquet euismod magna nulla erat. In urna arcu. Et sodales est. Dapibus amet habitasse risus sed.</p>
-
-        <p>Amet et luctus lacus at nascetur accumsan leo rhoncus. Libero eu tristique. Donec deleniti lobortis. Augue blandit nonummy rhoncus quam ornare. Sodales vestibulum libero pellentesque in tellus. Accumsan aut lacinia. Nulla vitae ante integer vitae curabitur. Sollicitudin at metus sed vel interdum. Sed platea porta risus dignissim nunc et et.</p>
-
-        <p>Morbi libero in odio nulla tellus. Elit eget orci. Luctus nulla et. In at nibh lectus ut luctus. Sed sit tempus eum vulputate massa elit adipiscing commodo. Occaecat vivamus velit etiam quis eleifend nec fermentum lorem pede wisi nullam mauris vel in integer in sed. Ullamcorper dignissim pede. Aliquet inceptos volutpat vivamus metus in proin donec ultrices. Lobortis neque justo. Nam dui amet. Mauris rutrum est. Tellus erat ipsum magna non orci. Suspendisse facilisis tortor.</p>
+        <p><a href="http://www.hollywoodreporter.com/news/missing-vfx-producer-eric-kohler-850390" >Kohler later said in a Facebook post that he was suffering from an addiction and that he was checking into rehab.</a></p>
 
         <h4 class="hc-subhead">No one talks about it</h4>
 
-        <p>Suspendisse felis dolor. Phasellus suscipit dapibus fugiat urna sem in at ipsum. Vehicula enim sed. Dis velit parturient. Vestibulum adipiscing convallis mattis pellentesque vehicula cras.</p>
+        <p>Visual effects are more integral than ever to movie magic. But most artists can’t, or won’t, speak openly about their concerns.</p>
 
-        <p>At pede aliquam maxime dolor lacinia. Nec etiam sed. Dapibus wisi adipiscing. Molestie iaculis vitae. In viverra leo quam in lorem tellus venenatis placerat elit.</p>
+        <p>The profession is a “young person’s” game, according to Grage, for those who love movies and want to be a part of Hollywood. Early-career artists often feel it is not a big deal to work 80 hours a week, move around the world and have no health insurance.</p>
 
-        <p>Vel iaculis tempus leo saepe nulla. Risus suscipit ridiculus. Pellentesque etiam lorem suspendisse vulputate eget neque mauris et. Mauris ligula etiam. Tempor viverra nec per.</p>
+        <p>“If we didn’t have so much passion for it, I don’t think we would put up with all the abuse,” Jablonka said. “That’s cool the first year and the second year and maybe even longer but at some point, especially when you want to have a family … freelance work, it’s just too hard to come by.”</p>
 
-        <p>Sed placerat arcu ullamcorper lacinia vel. Ipsum cursus ac. Lectus elit ut. Laoreet facilisi bibendum. Est imperdiet pharetra a cursus vestibulum. Mollis enim hac. Tincidunt eu vel posuere lacus aenean pulvinar egestas wisi voluptatem vitae in vestibulum sit morbi elit dictum phasellus. Condimentum porta cras. Modi lorem dui ornare odio.</p>
+        <p>Schools that teach visual effects promise unrealistic wealth and returns for working hard, Grage said. As a result, plenty of young people are encouraged to enter the industry, creating a steady supply of naive, passionate workers always available for companies to hire, undercutting leverage for more experienced and jaded artists.</p>
 
-        <p>Et porttitor turpis turpis mauris odio eu nulla sed viverra sem mattis. Imperdiet mi ornare. Vestibulum dictumst libero. Tellus nibh fusce. Elit leo ac lectus.</p>
+        <p>“They’re very eager and excited to get experience, said Patrick Longstreth, a longtime visual effects artist currently at TruTV. “So a lot of companies are just hiring younger people at a lower rate in hopes of getting more work out of them.”</p>
 
-        <figure class="hc-graphic">
-            <h3 class="hc-graphic-head">Top 50 Grossing Movies of 2016</h3>
-            <iframe id="datawrapper-chart-FU8iF" src="//datawrapper.dwcdn.net/FU8iF/7/" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="90%" height="840"></iframe><script type="text/javascript">if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["FU8iF"]={},window.datawrapper["FU8iF"].embedDeltas={"100":975,"200":894,"300":867,"400":867,"500":840,"600":840,"700":840,"800":840,"900":840,"1000":840},window.datawrapper["FU8iF"].iframe=document.getElementById("datawrapper-chart-FU8iF"),window.datawrapper["FU8iF"].iframe.style.height=window.datawrapper["FU8iF"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["FU8iF"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("FU8iF"==b)window.datawrapper["FU8iF"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});</script>
+        <p>Older workers say they feel pressured to match the output of younger people, who routinely put in 80 hours a week, or fear being fired, according to Longstreth and Grage.</p>
+
+        <figure class="hc-graphic hc-border-top hc-border-bottom">
+            <h3 class="hc-graphic-head">Deadpool: Number of credits listed by department</h3>
+            <iframe id="datawrapper-chart-YANGD" src="//datawrapper.dwcdn.net/YANGD/7/" frameborder="0" allowtransparency="true" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" oallowfullscreen="oallowfullscreen" msallowfullscreen="msallowfullscreen" width="100%" height="637"></iframe><script type="text/javascript">if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["YANGD"]={},window.datawrapper["YANGD"].embedDeltas={"100":671,"200":654,"300":637,"400":637,"500":637,"600":637,"700":637,"800":637,"900":637,"1000":637},window.datawrapper["YANGD"].iframe=document.getElementById("datawrapper-chart-YANGD"),window.datawrapper["YANGD"].iframe.style.height=window.datawrapper["YANGD"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["YANGD"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("YANGD"==b)window.datawrapper["YANGD"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});</script>
         </figure>
 
-        <p>Pretium sit id diam ante dui. Nulla et ac quam ac quis donec class elit. Praesentium nulla tortor justo eleifend eu. Sit quam suspendisse. Arcu sit praesent. Aliquam nunc pede nulla duis arcu eget aliquam praesent. Et nam vulputate. Tellus pellentesque vestibulum est ipsum facere. Tortor dui sodales nam volutpat.</p>
+        <p>There have been persistent unconfirmed rumors of blacklisting, and some backlash against the idea. “We don’t live in Darfur and we don’t live in Syria. No one is going to come and put you in prison for speaking your mind,” Acuña Acosta said about the idea. “To me, that is a totally unfounded fear.”</p>
 
-        <p>Erat elit amet leo enim cras posuere nec hendrerit. Et imperdiet est. Sed sociis molestie. Ultricies blandit nunc. Eu posuere euismod ante nam tempor elit.</p>
+        <p>Still, the visual effects industry is also one of the few professions in Hollywood that lacks a union. <a href="http://filmmakeriq.com/2012/09/a-guide-to-hollywood-unions/" >Writers, directors, producers, editors, cinematographers, teamsters, makeup artists, sound editors, animators, costume designers, composers and porn stars all have guilds, but visual effects artists</a> <a href="http://filmmakeriq.com/2012/09/a-guide-to-hollywood-unions/" >d</a>o<a href="http://filmmakeriq.com/2012/09/a-guide-to-hollywood-unions/" > </a>n<a href="http://filmmakeriq.com/2012/09/a-guide-to-hollywood-unions/" >o</a>t.</p>
 
-        <p>Cursus vel felis bibendum ut tortor. Velit adipiscing fusce. Arcu aliquam massa in lobortis aenean. Ante aliquet semper. Ante fermentum vehicula feugiat aliquam dui odio.</p>
+        <p>Most unions were formed before 1960 and have become fixtures in filmmaking, but visual effects is a relatively new industry beset by change. Hollywood needs visual effects, but a union would be undercut so long as artists are willing to work on a blockbuster for little pay or benefits, Lay said.</p>
 
-        <p>Nonummy mauris at. Tellus tincidunt pretium sed quam dui. Nam massa fusce eu tincidunt praesent. Nunc ante nulla. Turpis vivamus adipiscing omnis lacinia aut. Commodo congue in dolor est ultricies. Libero sapien congue faucibus vitae volutpat. Semper purus vulputate leo et sed primis praesent quisque. Ante nunc ligula luctus ut.</p>
+        <p>“If somebody comes to you and says, ‘You know what, I love mowing your lawn, and I’m going to come to your house every day and make sure it’s going to be perfect, and I’m going to do it for the lowest price possible because I love mowing lawns so much,’ are you going to stop them?” he asked. “No.”</p>
 
-        <p>Id ac pede. Nibh aenean erat. Diam et ac commodo morbi torquent ullamcorper quam ut. Consequat mauris neque. Phasellus parturient ut vitae lacinia ac cras.</p>
+        <p>The six major movie studios — Sony, 20th Century Fox, Paramount, Disney, Warner Brothers and Universal — and the Motion Picture Association of America, which represents all six studios, declined to comment or did not respond to questions about their business practices with the visual effects industry. Industrial Light &amp; Magic, a major visual effects studio based in San Francisco, also did not reply to a request for an interview.</p>
 
         <h4 class="hc-subhead">An industry in flux</h4>
 
-        <p>Ac hendrerit nascetur. Quam lectus nulla nibh pretium mauris. Vitae pede ut. Integer ipsum quis placerat eget suspendisse mi eaque pharetra. Platea mi mauris congue.</p>
+        <p>In 2013, Rhythm and Hues Studios, a respected visual effects company founded in 1987, won an Oscar for its work on the film “Life of Pi,” which famed critic Roger Ebert called a “<a href="http://www.rogerebert.com/reviews/life-of-pi-2012" >landmark of visual mastery</a>.”</p>
 
-        <p>Fermentum justo fringilla velit luctus vestibulum in vel integer ac mi est leo vel posuere. Sociis nunc nullam eget feugiat mauris. Ut tellus scelerisque duis orci quam. Leo purus mi urna placerat ipsum. Facilisi neque a. Nam condimentum mollis. Ultricies morbi cursus. Viverra morbi commodo. Velit vehicula neque sodales amet.</p>
+        <p><a href="http://blog.sfgate.com/thebigevent/2013/02/25/biggest-oscars-snub-a-shark-attack-on-the-vfx-industry/" >In his acceptance speech for the award</a>, visual effects supervisor Bill Westenhofer tried to comment on the fact that not long after “Life of Pi” was released, Rhythm and Hues had filed for bankruptcy. <a href="https://www.youtube.com/watch?v=OH5Pc8Gd1lo" >His mic was cut off before he could make his point: Visual effects companies struggle to profit despite their industry-changing work.</a></p>
 
-        <p>Bibendum ante maecenas. In justo ut vel neque enim. Id non vel ullamcorper aenean urna. Vivamus donec ac interdum pretium placerat. Aliquet elementum dolor ullamcorper.</p>
+        <p>Since the 1970s, major studios and most visual effects companies have operated under the “fixed bid” system, which hands a visual effects job — a list of shots they need for a movie — to whichever company offers to do it for the least amount of money, <a href="http://variety.com/2013/biz/news/visual-effects-society-whitepaper-to-industry-shape-up-1200563557/" >according to the Visual Effects Society</a>.</p>
 
-        <p>Sollicitudin amet iaculis. Leo etiam malesuada. A pellentesque feugiat eget quisque a consectetuer non eu aliquet ultrices in. Alias fermentum varius. Mi amet facilisi eu.</p>
+        <p>But inevitably, <a href="https://www.youtube.com/watch?v=LPNrDtUg0zQ" >the director or the studio will want to add new shots or tweak existing ones</a>, often multiple times without paying extra. Instead, visual effects companies are expected to cover the costs, <a href="http://www.thewrap.com/noah-vfx-firm-faces-cash-flow-headaches-exclusive/" >according to The Wrap</a>.</p>
 
-        <p>Rutrum amet ac. Aliquet quam faucibus. Amet orci pretium malesuada etiam arcu in arcu luctus. Eleifend nibh integer. Ut sodales nisl sodales eleifend eros est.</p>
+        <p>“A good year for a visual effects company, a great year … is five percent profit margin,” according to Lee Berger, the former president of Rhythm and Hues.</p>
 
         <blockquote>
             <div class="hc-quotemark-desk">“</div>
-            <div class="hc-quote"><span class="hc-quotemark-mob hc-accent-color">“</span>Diam gravida enim leo quis mollis. Integer mauris sapien dolor enim ut egestas praesent sunt. Sed nulla parturient. Incidunt at sed. Urna quam curae wisi.</div>
-            <div class="hc-attribution">— Firstname Lastname</div>
+            <div class="hc-quote"><span class="hc-quotemark-mob hc-accent-color">“</span>For some visual effects companies in my past, when we broke even, that was a good year. When we lived to fight another day, we felt like we had succeeded.</div>
+            <div class="hc-attribution">— Lee Berger</div>
         </blockquote>
 
-        <p>In pellentesque venenatis. Erat nullam quis vestibulum accumsan quisque. Massa sapien blandit. Condimentum vitae lectus. Hic eget eget id auctor proin facilisis tristique neque est tincidunt elit. At mi porta neque iure per orci auctor metus. Hac id tellus. Sed nulla ipsum gravida purus bibendum. Non magna conubia. Dignissim cras libero duis pharetra laoreet habitant ridiculus amet. At phasellus velit. Sodales ut tempor ridiculus ante turpis et arcu duis. Metus est et nisl arcu magna.</p>
+        <p>Rhythm and Hues’ decline, while high-profile and unfortunate, is hardly unique in the American visual effects industry. In the past 20 years, the Oscar for Best Visual Effects has been won just once by an American company that has remained solvent without being bought by a major studio or folded into another company.</p>
 
-        <p>Wisi massa suspendisse in eget mauris. Eleifend elit tellus felis sed adipiscing praesent non sed. Elit condimentum pellentesque at commodo penatibus quis venenatis ligula. Amet id lacus eu soluta neque posuere dignissimos semper. Ipsum pharetra dis. Arcu sed ultricies placerat vitae condimentum nec ipsam dolor lobortis lobortis dictum. Non maecenas dui. Id nunc nulla tellus torquent in. Dignissim tellus ad. Libero phasellus sed. Voluptatum congue id. Elementum dapibus justo. At cras varius placerat lorem nullam.</p>
+        <p>It is also common for companies to operate on a boom-and-bust cycle in the financially thin industry. Digiscope, founded in 1995, contributed to some of the most prestigious projects in the industry like “Titanic,” “Independence Day” and “Spider-Man.”</p>
 
-        <p>Pede eleifend justo. Magnis morbi suscipit. Neque tincidunt ac. Massa fusce diam eu sit eu vel tempor ipsum alias cras nunc. Neque eros hac mauris.</p>
+        <p>But in 2013, the company seemingly vanished. It stopped posting to its website or social media accounts and phone calls now go unanswered. </p>
 
-        <p>Purus a quisque. Tincidunt accumsan posuere. Posuere aenean etiam augue quis in. Consectetuer risus ut pellentesque mauris integer. Orci ab dolor lectus imperdiet augue semper.</p>
+        <p><a href="https://businesssearch.sos.ca.gov/CBS/Detail" >On the California secretary of state’s website</a>, Digiscope is still registered as an LLC. Grage said it’s not uncommon for small companies like Digiscope to go dark when work dries up and keep updating paperwork so they can start up again when there’s a need.</p>
 
-        <p>Nulla lorem suspendisse arcu sed a. Integer sit magnis porttitor faucibus etiam nullam non volutpat. Nec fringilla sed. Aliquam in justo. Quam quis neque mollis.</p>
+        <p>Small companies like Digiscope form a key part of an oversaturated market where more and more people can accomplish feats of wizardry with affordable technology. As a result, major film studios are able to cut costs without sacrificing quality as they work with companies desperate to stand out, <a href="http://www.forbes.com/forbes/2005/1114/161.html" >according to Forbes</a>.</p>
 
-        <p>Eget a nisl. At ut nec. Vel lectus venenatis nisl vitae ut praesent magnis pede. Eget donec proin aliquam non iaculis. Elit natoque libero quo.</p>
+        <p>Tax subsidies have also crippled hundreds of U.S. visual effects companies. California offers a tax break for the film industry, but it is dwarfed by the ones provided by Canada, Singapore, New Zealand and London, where studios can save millions.</p>
 
-        <p>Nec amet porttitor et a ut purus laoreet ante. Commodo posuere magna. Sociosqu ut ipsum. In leo erat porta arcu quam. Lorem lorem auctor quis.</p>
+        <p>This dynamic hurts the individual visual effects artist, who must now migrate for work, typically to places where the exchange rate and pay are comparatively weaker. Finally, the benefits of these tax breaks for the local taxpayer are questionable. </p>
 
-        <p>Nunc rerum velit tincidunt rutrum dui. Tellus morbi nec. Iaculis mattis condimentum velit dignissim elit arcu turpis libero. Orci rutrum magna. Vulputate nulla euismod ante.</p>
+        <p>The city of Vancouver has spent billions of dollars luring the film industry with a tax break that was once as high as 33 percent. That money, along with the city’s relatively close proximity to California, have lured major film studios north of the border.</p>
 
-        <p>Odio condimentum ut vulputate magna eu enim ullamcorper sed. Vivamus sed purus justo luctus turpis. Nunc neque suspendisse. Sed dolor nunc. Wisi erat tempus id.</p>
+        <p>Of those billions, the taxpayers recoup half at most, according to Jordan Bateman, the provincial director of the Canadian Taxpayers Federation. As more and more studios moved, the amount of money the provincial government handed out soared, causing it to<a href="http://www.theglobeandmail.com/news/british-columbia/bc-to-slash-film-and-tv-industry-subsidy-after-consultations/article29826234/" > eventually cut back, while other tax havens in Canada have been eliminated altogether</a>. </p>
 
-        <p>Velit quis quis massa ut magni. Vestibulum nec nulla lacinia libero erat. Leo sed quam. Enim massa nam praesent adipiscing feugiat. Pretium faucibus pellentesque eu.</p>
+        <p>“There is an economics professor from (the University of British Columbia) who actually made the case that it would be cheaper just to get rid of the entire industry and put everyone (in Vancouver) on unemployment insurance,” Bateman said. “You’d actually save a bunch of money that way.”</p>
 
-        <p>Ante et ipsum. Dictum ullamcorper neque vel doloribus et eu justo sed consectetuer suscipit nulla. Potenti elit neque. Sem vestibulum risus. Tortor felis pellentesque varius.</p>
-
-        <p>Rutrum feugiat eleifend. Eu varius tellus. Wisi pede wisi. A mauris aliquam. Vivamus proin mollis massa sed aptent sed sit suspendisse sed neque risus duis.</p>
-
-        <p>Commodo augue erat. Porttitor ultrices eros. Sapien quam nulla amet porta integer. Velit sed in. Ac feugiat feugiat justo mauris viverra justo cras justo in.</p>
-
-        <p>Massa imperdiet vehicula. Dictum maecenas dictum. Metus wisi natoque per risus et. Sed nulla commodi vulputate at sapien ut pellentesque ac. Sed justo odio laudantium.</p>
+        <p>But now that Canada’s tax breaks are drying up, the industry has increasingly moved to the <a href="http://www.britishfilmcommission.org.uk/film-production/uk-film-tax-relief/" >United Kingdom</a>, <a href="https://home.kpmg.com/content/dam/kpmg/pdf/2015/03/Film%20financing%20and%20television%20programming-%20singapore.pdf" >Singapore</a>, <a href="http://www.filmnz.com/financial-incentives/international-incentives" >New Zealand</a> and <a href="http://arts.gov.au/film-tv/australian-screen-production-incentive/offsets" >Australia</a>, where labor costs are cheap and <a href="http://nofilmschool.com/2016/07/film-production-incentives-tax-incentives-movie-rebates" >tax subsidies</a> are still in place.</p>
 
         <h4 class="hc-subhead">So what’s next?</h4>
 
-        <p>Vel eget turpis. Orci erat nisi. Fermentum integer et. Faucibus ligula et ac egestas at ut ut ac ut suspendisse dictum vitae in conubia. Vulputate consectetuer aenean. Amet pede esse nulla sociis curabitur. Do integer integer orci purus vitae. Id massa neque. Et nulla ut eleifend molestie sed pede ipsum.</p>
+        <p>Not long after Rhythm and Hues’ Oscar win, American visual effects artists began to pressure American film studios to keep production in California and stop forcing them to move to other countries for jobs.</p>
 
-        <p>Magna enim commodo dui illum eu tincidunt non viverra pellentesque turpis eleifend quis pulvinar vehicula. Est vel maecenas mauris id donec. Risus posuere augue ac aliquam leo. Aenean justo aliquam. Dapibus tellus nec. Justo mollis turpis in morbi a. Consequat magna magni. Sollicitudin dolor volutpat. Porttitor sit possimus commodo metus.</p>
+        <p>More than 500 people showed up to protest the Oscars in 2014, infuriated by the debacle of 2013 and determined to change things. Their color of choice was green, the color of the screens upon which they built their visual effects. The protest garnered attention from international media and industry outlets alike. </p>
 
-        <p>Phasellus sit vestibulum. Maxime wisi vitae. Id elementum vel lacinia ipsum pellentesque accumsan habitant ut cursus commodo facilisis. Rutrum gravida tristique est enim lorem quam diam porta. Accumsan pede dui. Purus convallis sed. Nulla velit erat magna mollis duis. Aliquam eros posuere. Ut tortor dolor nonummy cursus ligula sapien a.</p>
+        <p>“We came out of that day with a common enemy. Everyone was angry and we had riled the troops,” said Scott Ross, a former visual effects executive and activist.</p>
 
-        <p>Scelerisque scelerisque aliquet ullamcorper litora risus. Massa et hendrerit. Amet ipsum vivamus in morbi aliquam lacus curabitur feugiat sed etiam vestibulum. Ac mattis enim ornare a viverra odio vitae est. Nunc fermentum laoreet augue nulla sed sit itaque pharetra platea elit ante. Gravida amet tortor. Sollicitudin cras nulla. Id sed nulla metus et in ridiculus justo sit ipsum tincidunt est. Justo scelerisque dapibus porttitor nulla nec. Aliquam etiam eu ipsum pede et. Eu eleifend nibh vehicula lacus est mollis elit gravida irure in commodo. Lacus et rutrum. Auctor wisi adipisicing. Sapien lorem sit. Metus dapibus ultrices. Dictum neque proin. Gravida auctor commodo. Interdum orci luctus nullam tellus nunc. Lobortis metus amet. Vel est interdum. Nam metus ultricies. Praesent volutpat sit nunc id et et amet nunc. Amet metus rutrum posuere tincidunt nostra mauris dui ornare. Integer quam mattis integer elit dictumst suspendisse in platea. Eu amet molestie felis suspendisse nec.</p>
+        <p>And then…</p>
 
-        <p>Dui id nec. Diam turpis fringilla fermentum mauris placerat lacinia purus sed. Semper architecto in primis lectus habitant. Nascetur dolor donec. Velit feugiat lectus placerat.</p>
+        <p>Nothing.</p>
 
-        <p>Cras litora eleifend. Condimentum dictum bibendum dis accumsan lorem ut rutrum pede. Amet nunc donec fusce porttitor neque. Mauris sociosqu ut. Pede ligula dui mauris.</p>
+        <p>There was no protest in 2015 or 2016, and there is nothing planned for this year’s ceremony. Hollywood continues to churn out massive blockbusters with thousands of visual effects shots crafted by thousands of workers. </p>
 
-        <p>Risus dictum mus neque leo posuere natoque sit sem. Proin volutpat et. Nunc pharetra aenean vivamus sed et. Accumsan rutrum aenean. Dignissim quis mauris cursus.</p>
+        <p>“It’s like it’s religious worship,” Lay said. “We have to worship what we’re doing. Even though we know it can hurt us in the end.”</p>
 
-        <p>Amet quis dui. Sed justo vestibulum proin odio nisl. Sed arcu magnis lorem tellus luctus dui quis ipsum ligula nibh a. Accumsan bibendum pellentesque in ligula eget. Faucibus nam convallis. Eu ut in diam justo elit cursus non malesuada purus quisque habitasse turpis luctus curabitur at condimentum orci in sapien consequat lacinia sed a quis mi per nec numquam hymenaeos. A eros est porttitor est nulla. Nec est felis. Tortor ac justo lorem ante aenean quis vel mauris eu suscipit diam. Dictum habitasse erat. Praesent faucibus arcu est sit sed. Libero penatibus mattis dolor wisi etiam ut volutpat maxime. Libero etiam dignissim. Vel vitae orci cras magna eu diam mollis etiam. Semper vulputate vestibulum. Elementum orci nec in luctus venenatis. Ac lectus augue. Felis adipiscing mollis. Turpis purus eu. Potenti gravida donec. Rhoncus id eros. Ut non ligula. Arcu ad tortor. In suspendisse arcu vehicula eget ornare. Cras morbi ac.</p>
-
-        <p>Ornare sit eu. Felis etiam quis. Etiam metus nam nec veritatis aliquet. Dolor laoreet lectus sit nascetur dui. Ultrices a non id vestibulum taciti tempor.</p>
 
             <!-- /end story content -->
 
             <!-- well source list -->
             <div id="hc-sources-well">
-                <p><strong>Sources: </strong>thisIsMySource.com, The Real Source Or Else, sorcify.com, thisIsMySource.com, The Real Source Or Else, sorcify.com, thisIsMySource.com, The Real Source Or Else, sorcify.com</p>
+                <p><strong>Sources: </strong>National Endowment for the Arts, U.S. Bureau of Economic Analysis, fxguide.com, Cartoon Brew, Deadspin, MPAA.org, Bureau of Labor Statistics, Government of Canada Job Bank, Animation World Network, The Wrap, Variety, The Hollywood Reporter, IMDB.com, Forbes, California’s Secretary of State, The Globe and Mail, NoFilmSchool.com, SFGate.com, RogerEbert.com, Visual Effects Society, Oscars.com, FilmmakerIQ.com, Digiscope, Reddit.com/r/vfx, Facebook, CGSociety.org, CG-Masters.com, cgchannel.com, New York Times, Los Angeles Times, Washington Post, StarWars.com, RentJungle.com, CBC, NPR, The Economist, Valerie Delahaye, Jordan Bateman, Daniel Yocis, Daniel Lay, Pierre Grage, Lee Berger, Scott Ross, Patrick Longstreth, Mariana Acuña Acosta, Andreas Jablonka, Brian Weatherford</p>
             </div>
             <!-- /end well source list -->
 
@@ -254,21 +245,21 @@
         <!-- /end content well -->
 
         <!-- content footer -->
-        <footer id="hc-footer">
+        <section id="hc-footer">
 
             <!-- suggested stories -->
-            <section id="hc-suggested">
+            <section id="hc-suggested" class="hc-border-top">
                 <h1 id="hc-suggested-heading" class="hc-label">More stories</h1><br /><br />
                 <!-- refer wrapper -->
                 <div class="hc-refer-wrapper">
                     <!-- refer -->
                     <div class="hc-refer">
-                        <a href="http://www.centredaily.com/news/nation-world/national/article82960947.html">
+                        <a href="http://www.mcclatchydc.com/news/politics-government/election/article110800312.html">
                             <figure class="hc-container-img">
-                                <img class="hc-refer-img" src="http://pics.mcclatchyinteractive.com/news/nation-world/national/ic8vme/picture82960927/ALTERNATES/FREE_320/MothersLetterArt" alt="Brock Turner and the letter from his mother"/>
+                                <img class="hc-refer-img" src="http://www.mcclatchydc.com/news/2j3j0r/picture127413274/ALTERNATES/FREE_320/share1.png" alt="Illustration of Hillary Clinton and Donald Trump"/>
                                 <div class="hc-description-wrapper">
-                                    <h5 class="hc-refer-head">'Just trying to fit in'</h5>
-                                    <div class="hc-refer-deck">Brock Turner's mother blames his actions on trying to fit in at Stanford</div>
+                                    <h5 class="hc-refer-head">Voters Make the Call</h5>
+                                    <div class="hc-refer-deck">American voters leave us voicemails explaining who they plan to vote for and why</div>
                                 </div>
                             </figure>
                         </a>
@@ -276,12 +267,12 @@
                     <!-- /end refer -->
                     <!-- refer -->
                     <div class="hc-refer">
-                        <a href="http://www.newsobserver.com/news/nation-world/national/article82008797.html">
+                        <a href="http://www.fresnobee.com/news/nation-world/national/article127441239.html">
                             <figure class="hc-container-img">
-                                <img class="hc-refer-img" src="http://pics.mcclatchyinteractive.com/news/nation-world/national/4p8vkl/picture82017547/ALTERNATES/FREE_320/BrockTurner" alt="Brock Turner walking to the Santa Clara Superior Courthouse"/>
+                                <img class="hc-refer-img" src="http://www.mcclatchydc.com/news/nation-world/national/u0mq9r/picture134053849/ALTERNATES/FREE_320/main-share-cropped.jpg" alt="Collage of people"/>
                                 <div class="hc-description-wrapper">
-                                    <h5 class="hc-refer-head">'20 minutes of action'</h5>
-                                    <div class="hc-refer-deck">Father of Brock Turner says he shouldn't go to prison</div>
+                                    <h5 class="hc-refer-head">How the election changed my life</h5>
+                                    <div class="hc-refer-deck">The personal stories of five people who saw their lives change after Trump's election</div>
                                 </div>
                             </figure>
                         </a>
@@ -289,12 +280,12 @@
                     <!-- /end refer -->
                     <!-- refer -->
                     <div class="hc-refer">
-                        <a href="http://www.miamiherald.com/news/nation-world/national/article82799972.html">
+                        <a href="http://www.mcclatchydc.com/news/politics-government/article126520714.html">
                             <figure class="hc-container-img">
-                                <img class="hc-refer-img" src="http://www.mcclatchydc.com/news/59bolo/picture127115289/ALTERNATES/FREE_320/share3.jpg" alt="Vice President Joe Biden"/>
+                                <img class="hc-refer-img" src="http://www.mcclatchydc.com/news/hmzplb/picture127431819/ALTERNATES/FREE_320/share3.png" alt="Collage of women"/>
                                 <div class="hc-description-wrapper">
-                                    <h5 class="hc-refer-head">'I will never forget you'</h5>
-                                    <div class="hc-refer-deck">Joe Biden writes open letter to Stanford sexual assault victim</div>
+                                    <h5 class="hc-refer-head">First women</h5>
+                                    <div class="hc-refer-deck">These women shattered ceilings, here's the message for you</div>
                                 </div>
                             </figure>
                         </a>
@@ -311,7 +302,7 @@
                 <div class="fb-comments" data-href="http://www.mcclatchydc.com/news/nation-world/national/article127048369.html" data-numposts="10" data-width="100%" data-colorscheme="light"></div>
             </section>
             <!-- /end comments -->
-        </footer>
+        </section>
 
     </section>
 <!-- /end custom body -->
@@ -319,7 +310,8 @@
 <!-- custom scripts -->
 
     <script type="text/javascript" src="static/scripts/base.js"></script>
-    <script type="text/javascript" src="http://media.mcclatchydc.com/static/test/vfx-project/static/scripts/custom.js"></script>
+    <script type="text/javascript" src="static/scripts/custom.js"></script>
+    <!-- <script type="text/javascript" src="http://media.mcclatchydc.com/static/test/vfx-project/static/scripts/custom.js"></script> -->
 
     <!-- MM_LINK ███████████████████████████████████████████████████ -->
     <!-- <script> paste base.js scripts here </script> -->

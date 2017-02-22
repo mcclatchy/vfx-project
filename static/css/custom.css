@@ -1,4 +1,4 @@
-.reset, .hc-head, .hc-deck, .hc-byline, .hc-date, .hc-section-head, .hc-subhead, .hc-quote, .hc-attribution, .hc-note, .hc-refer-head, .hc-refer-deck, .hc-graphic-head {
+.reset, .hc-head, .hc-deck, .hc-byline, .hc-date, .hc-section-head, .hc-subhead, .hc-quote, .hc-attribution, .hc-note, .hc-refer-head, .hc-refer-deck, .hc-graphic-head, .hc-story-video-head {
   margin: 0;
   padding: 0;
   border: 0;
@@ -19,8 +19,7 @@
   border-top: 0.5px solid #e9ebee; }
 
 .hc-border-bottom {
-  border-bottom: 0.5px solid #e9ebee;
-  padding-bottom: 1.6rem; }
+  border-bottom: 0.5px solid #e9ebee; }
 
 .hc-header-style, .hc-head, .hc-deck, .hc-byline, .hc-date, #hc-footer, .hc-credits {
   width: 90%;
@@ -28,6 +27,9 @@
   text-align: center;
   margin: 0 auto;
   display: block; }
+
+.hc-story-video-head {
+  margin-bottom: 1.5rem; }
 
 /*
 TABLE OF CONTENTS
@@ -198,9 +200,8 @@ IV. Section head, subhead
 .hc-subhead {
   font-weight: bold;
   font-family: "McClatchy Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
-  margin: 0 auto 0rem;
-  font-size: 2rem;
-  line-height: 3.6rem;
+  margin: 6rem auto 1.5rem;
+  font-size: 2.4rem;
   max-width: 650px;
   width: 90%; }
 
@@ -276,7 +277,7 @@ blockquote {
   max-width: 650px;
   width: 100%;
   border: none;
-  margin: 3.6rem auto;
+  margin: 6rem auto;
   position: relative;
   padding: 0; }
 
@@ -644,7 +645,8 @@ XV. Loader
     -webkit-transform: scale(1);
     transform: scale(1); } }
 a {
-  color: #216f3f; }
+  color: #216f3f;
+  font-weight: bold; }
   a:hover {
     color: #2f9e5a; }
 
@@ -851,32 +853,36 @@ header {
   text-shadow: none; }
 
 .hc-byline {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   color: white;
   font-family: "McClatchy Sans", Arial, "Helvetica Neue", Helvetica, sans-serif;
-  color: #222;
-  margin-bottom: 0rem; }
+  margin-bottom: 0rem;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2); }
   @media (max-width: 768px) {
     .hc-byline {
       font-size: 1.2rem; } }
   .hc-byline a {
     color: white;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2); }
+    font-weight: bold;
+    font-size: 1.4rem; }
 
 .hc-date {
-  margin-bottom: 3.6rem; }
+  margin-bottom: 3.6rem;
+  color: white;
+  font-size: 1.1rem !important;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2); }
   @media (max-width: 768px) {
     .hc-date {
       margin-bottom: 3rem; } }
 
-.hc-graphic-head {
-  font-size: 1.6rem;
+.hc-graphic-head, .hc-story-video-head {
+  font-size: 1.8rem;
   font-family: "McClatchy Sans", Arial, "Helvetica Neue", Helvetica, sans-serif; }
 
 .hc-graphic {
   width: 90%;
   max-width: 650px;
-  margin: 3.6rem auto;
+  margin: 6rem auto;
   display: block; }
 
 .fa-play-circle {
@@ -924,6 +930,10 @@ blockquote {
   font-style: normal;
   font-size: 3rem;
   line-height: 3.6rem; }
+  @media (max-width: 768px) {
+    .hc-quote {
+      font-size: 2.4rem;
+      line-height: 3rem; } }
 
 .hc-attribution {
   margin-top: 1.2rem;
@@ -938,7 +948,7 @@ blockquote {
 .hc-quotemark-mob {
   font-size: 16rem;
   margin-left: -2rem;
-  margin-top: 1rem;
+  margin-top: 0.3rem;
   font-style: italic;
   color: #216f3f; }
 
