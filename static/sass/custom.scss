@@ -14,9 +14,11 @@ $primary: rgb(33, 111, 63);
 a {
     color: $primary;
     font-weight: bold;
+    text-decoration: underline;
 
     &:hover {
         color: lighten($primary, 12%);
+        text-decoration: underline;
     }
 }
 
@@ -64,6 +66,7 @@ a {
     font-size: 1.8rem;
     padding-top: 0.9rem;
     width: 30%;
+    text-decoration: none;
 
     @media (max-width: 768px) {
         width: auto;
@@ -71,6 +74,7 @@ a {
 
     a {
         color: white;
+        text-decoration: none;
     }
 }
 
@@ -173,11 +177,22 @@ header {
     left: 0;
     right: 0;
 
-    @media (max-width: 700px) {
+    @media (max-width: 1200px) {
+        top: 60%;
+    }
+
+    @media (max-width: 900px) {
         top: 65%;
     }
 
     p.hc-video-intro {
+
+        @media (min-width: 2000px) {
+            font-size: 1.9rem;
+            line-height: 3rem;
+            max-width: 700px;
+        }
+
         color: white;
         font-family: $sans;
         font-size: 1.7rem;
@@ -187,26 +202,24 @@ header {
         text-align: center;
         text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
 
-        @media (max-width: 768px) {
+        @media (max-width: 1024px) {
             font-size: 1.5rem;
             line-height: 2.4rem;
+        }
+        @media (max-width: 400px) {
+            max-width: 320px;
         }
     }
 }
 
 #hc-hero-video-wrapper {
     width: 75%;
-    margin: 0 auto;
-    display: block;
+    display: none;
+    margin: 0 auto 4rem;
 
     @media (max-width: 768px) {
         width: 100%;
     }
-}
-
-#hc-hero-video {
-    display: none;
-    margin: 0 auto 4rem;
 }
 
 #hc-hero-img {
@@ -220,6 +233,10 @@ header {
 }
 
 .play-wrapper {
+    @media (min-width: 768px) {
+        max-width: 110px;
+    }
+
     max-width: 100px;
     margin: 0 auto;
     display: block;
@@ -252,8 +269,13 @@ header {
     margin-bottom: 0px;
     width: auto !important;
     margin-left: 1rem !important;
-    padding-top: 0.8rem;
+    padding-top: 0.5rem;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+    letter-spacing: 2px;
+
+    @media (max-width: 1024px) {
+        padding-top: 0.8rem;
+    }
 
     @media (max-width: 768px) {
         padding-top: 0rem;
@@ -266,14 +288,24 @@ header {
     font-family: $sans;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 7rem;
-    line-height: 7rem;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
     margin-bottom: 1.2rem;
+    font-size: 9rem;
+    line-height: 9rem;
 
-    @media (max-width: 768px) {
-        font-size: 3rem;
-        line-height: 3rem;
+    @media(max-width: 2000px) {
+        font-size: 7rem;
+        line-height: 7rem;
+    }
+
+    @media (max-width: 1024px) {
+        font-size: 5rem;
+        line-height: 5rem;
+    }
+
+    @media (max-width: 500px) {
+        font-size: 3.5rem;
+        line-height: 3.5rem;
     }
 }
 
@@ -285,10 +317,14 @@ header {
 }
 
 .hc-byline {
-    font-size: 1.1rem;
+    @media (min-width: 2000px) {
+        font-size: 1.5rem;
+    }
+
+    font-size: 1.3rem;
     color: white;
     font-family: $sans;
-    margin-bottom: 0rem;
+    margin-bottom: 0.3rem;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
 
     @media (max-width: 768px) {
@@ -298,14 +334,27 @@ header {
     a {
         color: white;
         font-weight: bold;
-        font-size: 1.4rem;
+        font-size: 1.5rem;
+
+        @media (min-width: 2000px) {
+            font-size: 1.7rem;
+        }
+
+        @media (max-width: 768px) {
+            font-size: 1.4rem;
+        }
     }
 }
 
 .hc-date {
+
+    @media (min-width: 2000px) {
+        font-size: 1.5rem !important;
+    }
+
     margin-bottom: 3.6rem;
     color: white;
-    font-size: 1.1rem !important;
+    font-size: 1.3rem !important;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
 
     @media (max-width: 768px) {
@@ -317,9 +366,26 @@ header {
     @extend .reset;
     font-size: 1.8rem;
     font-family: $sans;
+    font-weight: bold !important;
+
+    @media (max-width: 768px) {
+        font-size: 1.6rem;
+    }
+}
+
+#hc-table {
+    display: block;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
 }
 
 .hc-graphic {
+    @media (min-width: 1024px) {
+        max-width: 750px;
+    }
+
     width: 90%;
     max-width: 650px;
     margin: 6rem auto;
@@ -367,11 +433,11 @@ blockquote {
     font-weight: bold;
     font-style: normal;
     font-size: 2rem !important;
-    line-height: 3rem !important;
+    line-height: 3.6rem !important;
 
     @media (max-width: 768px) {
         font-size: 1.8rem !important;
-        line-height: 2.4rem !important;
+        line-height: 3rem !important;
     }
 }
 
@@ -409,12 +475,72 @@ blockquote {
 }
 
 .hc-story-video-wrapper {
+    @media (min-width: 1024px) {
+        max-width: 750px;
+    }
+
     margin: 3.6rem auto;
     width: 90%;
     max-width: 650px;
+    border-bottom: 1px solid #ccc;
 }
 
 .hc-label {
     background: $primary;
     color: white;
+}
+
+#hc-hero-video-embed {
+    float: right;
+}
+
+.jw-dock {
+    display: none;
+}
+
+.hc-hero-video-embed-wrapper {
+    margin-top: -40px;
+}
+
+#hc-embed-link, #hc-embed-copied {
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+#hc-embed-copied {
+    // font-weight: bold;
+    display: none;
+    cursor: pointer;
+    font-size: 1rem;
+    background: #222;
+    padding: 1rem;
+    color: white;
+}
+
+#hc-embed-overlay {
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: 0;
+    z-index: 99999999999999;
+    top: 50%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: #222;
+}
+
+.hc-embed-textarea {
+    opacity: 0;
+}
+
+#hc-app-overlay {
+    display: none;
 }
